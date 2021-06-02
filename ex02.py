@@ -1,3 +1,3 @@
-a=11.25
-b=2.5
-print(a//b)
+s='python is easy language to learn'
+print(s.startswith('py'))
+print(s.endswith('rn'))

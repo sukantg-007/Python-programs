@@ -1,0 +1,7 @@
+name=input("Enter your name: ")
+sal=input("Enter your salary : ")
+desg=input("Enter your designation : ")
+print(name,'has',sal,'salary and post is',desg)
+print('{} has {} salary and post is {}'.format(name,sal,desg))
+print('{0} has {1} salary and post is {2}'.format(name,sal,desg))
+print('{x} has {y} salary and post is {z}'.format(x=name,z=sal,y=desg))
